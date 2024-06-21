@@ -9,13 +9,12 @@ A model of visual salience written and developed by Rachel F Heaton and John E H
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and limitations under the License.
 
-# * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+# * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 # Model of V1-based salience
 # Developed and written by Rachel F Heaton and John E Hummel
 # This model profited from helpful conversations with Alejandro Lleras and Simona Buetti
-# * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+# * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 This model was benchmarked on the MIT/Tuebingen Saliency benchmarks as
 CASPER V1 Salience
 
@@ -132,18 +131,18 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 # To run this code:
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 # 1. Install Python 3 
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
 (This code was developed using Python 3.7)
 
 Make sure the following modules/libraries are installed and available:
 os, sys, math, datetime, numpy, Pillow, mpi4py
 
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 # 2. Update the input and output path information for the images you want to run
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 These are found in the main() method at the bottom of runfilters_contrast.py
 The default paths are
 
@@ -153,7 +152,7 @@ The default paths are
 
 Put the files you want to analyze in the 'inpath' directory
 
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 # 3. Open a terminal window and execute the following command in the directory where the code is located
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 mpirun -np 2 python3 -u -m mpi4py.futures ./runfilters_contrast.py 2
