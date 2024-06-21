@@ -9,10 +9,30 @@ A model of visual salience written and developed by Rachel F Heaton and John E H
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and limitations under the License.
 
-# * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+# * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 # Model of V1-based salience
 # Developed and written by Rachel F Heaton and John E Hummel
-# * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+# This model profited from helpful conversations with Alejandro Lleras and Simona Buetti
+# * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+This model was benchmarked on the MIT/Tuebingen Saliency benchmarks as
+CASPER V1 Salience
+
+https://saliency.tuebingen.ai/results.html
+
+If this code is used for academic research, please cite the DOI attached to this repository:
+
+<a href="https://zenodo.org/badge/latestdoi/703059168"><img src="https://zenodo.org/badge/703059168.svg" alt="DOI"></a>
+
+# Acknowledgements
+This material is based upon work supported by the National Science Foundation under Grant No. BCS1921735
+
+This research is part of the Blue Waters sustained-petascale computing project, which is supported by the National Science Foundation (awards OCI-0725070 and ACI-1238993) the State of Illinois, and as of December, 2019, the National Geospatial-Intelligence Agency. Blue Waters is a joint effort of the University of Illinois at Urbana-Champaign and its National Center for Supercomputing Applications.
+
+A previous version of this material was based on research sponsored by the Air Force Research Laboratory, under agreement number
+FA9550-12-1-0003. The U.S. Government is authorized to reproduce and distribute reprints for Governmental
+purposes notwithstanding any copyright notation thereon.
 
 # This code dynamically links Pillow which requires the following information to be included in any redistributions or uses:
 
@@ -111,36 +131,19 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-This model was benchmarked on the MIT/Tuebingen Saliency benchmarks as
-CASPER V1 Salience
-
-
-https://saliency.tuebingen.ai/results.html
-
-
-If this code is used for academic research, please cite the DOI attached to this repository:
-
-<a href="https://zenodo.org/badge/latestdoi/703059168"><img src="https://zenodo.org/badge/703059168.svg" alt="DOI"></a>
-
-# Acknowledgements
-This material is based upon work supported by the National Science Foundation under Grant No. BCS1921735
-
-This research is part of the Blue Waters sustained-petascale computing project, which is supported by the National Science Foundation (awards OCI-0725070 and ACI-1238993) the State of Illinois, and as of December, 2019, the National Geospatial-Intelligence Agency. Blue Waters is a joint effort of the University of Illinois at Urbana-Champaign and its National Center for Supercomputing Applications.
-
 # To run this code:
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 # 1. Install Python 3 
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
 (This code was developed using Python 3.7)
 
 Make sure the following modules/libraries are installed and available:
 os, sys, math, datetime, numpy, Pillow, mpi4py
 
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 # 2. Update the input and output path information for the images you want to run
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 These are found in the main() method at the bottom of runfilters_contrast.py
 The default paths are
 
