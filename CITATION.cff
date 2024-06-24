@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Heaton"
+  given-names: "Rachel"
+  orcid: "https://orcid.org/0000-0002-7121-7691"
+- family-names: "Hummel"
+  given-names: "John"
+title: "Salience Model"
+version: 1.0.2
+doi: "https://zenodo.org/badge/latestdoi/703059168"
+date-released: 2024-06-23
+url: "https://github.com/rachelfheaton/salience-model"
