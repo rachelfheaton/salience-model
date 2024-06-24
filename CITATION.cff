@@ -8,6 +8,6 @@ authors:
   given-names: "John"
 title: "Salience Model"
 version: 1.0.2
-doi: "https://zenodo.org/badge/latestdoi/703059168"
+doi: "10.5281/zenodo.8429109"
 date-released: 2024-06-23
 url: "https://github.com/rachelfheaton/salience-model"
