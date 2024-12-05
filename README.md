@@ -21,7 +21,7 @@ CASPER V1 Salience
 https://saliency.tuebingen.ai/results.html
 
 If this code is used for academic research, please cite the DOI to this repository:
-<a href="https://doi.org/10.5281/zenodo.14279947"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.14279947.svg" alt="DOI"></a>
+<a href="https://doi.org/10.5281/zenodo.8429109"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.8429109.svg" alt="DOI"></a>
 
 This code can be found at https://github.com/rachelfheaton/salience-model
 
