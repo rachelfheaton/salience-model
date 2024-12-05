@@ -11,8 +11,8 @@ A model of visual salience written and developed by Rachel F Heaton and John E H
 
 # * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 # Model of V1-based salience
-# Developed and written by Rachel F Heaton and John E Hummel
-# This model profited from helpful conversations with Alejandro Lleras and Simona Buetti
+## Developed and written by Rachel F Heaton and John E Hummel
+#### This model profited from helpful conversations with Alejandro Lleras and Simona Buetti
 # * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 This model was benchmarked on the MIT/Tuebingen Saliency benchmarks as
@@ -27,13 +27,13 @@ If this code is used for academic research, please cite the DOI to this reposito
 This code can be found at https://github.com/rachelfheaton/salience-model
 
 # Acknowledgements
-This material is based upon work supported by the National Science Foundation under Grant No. BCS1921735
+## This material is based upon work partly supported by the National Science Foundation under Grant No. BCS1921735
 
-This research is part of the Blue Waters sustained-petascale computing project, which is supported by the National Science Foundation (awards OCI-0725070 and ACI-1238993) the State of Illinois, and as of December, 2019, the National Geospatial-Intelligence Agency. Blue Waters is a joint effort of the University of Illinois at Urbana-Champaign and its National Center for Supercomputing Applications.
+## This research is part of the Blue Waters sustained-petascale computing project, which is supported by the National Science Foundation (awards OCI-0725070 and ACI-1238993) the State of Illinois, and as of December, 2019, the National Geospatial-Intelligence Agency. Blue Waters is a joint effort of the University of Illinois at Urbana-Champaign and its National Center for Supercomputing Applications.
 
-A previous version of this material was based on research sponsored by the Air Force Research Laboratory, under agreement number
-FA9550-12-1-0003. The U.S. Government is authorized to reproduce and distribute reprints for Governmental
-purposes notwithstanding any copyright notation thereon.
+## A previous version of this material was based on research sponsored by the Air Force Research Laboratory, under agreement number FA9550-12-1-0003. The U.S. Government is authorized to reproduce and distribute reprints for Governmental purposes notwithstanding any copyright notation thereon.
+
+
 
 # This code dynamically links Pillow which requires the following information to be included in any redistributions or uses:
 
